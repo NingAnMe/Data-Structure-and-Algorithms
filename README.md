@@ -6,4 +6,5 @@
 
 # Algorithms
 
-- [Two Sum](https://github.com/NingAnMe/Data-Structure-and-Algorithms-by-Python/blob/master/algorithms/two_sum.md)
+- [Binary Search](https://github.com/NingAnMe/Data-Structure-and-Algorithms-by-Python/blob/master/algorithms/binary_search.md)
+- [Two Sum(LeetCode)](https://github.com/NingAnMe/Data-Structure-and-Algorithms-by-Python/blob/master/algorithms/two_sum.md)
