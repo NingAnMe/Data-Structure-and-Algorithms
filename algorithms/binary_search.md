@@ -11,6 +11,12 @@
 ## 算法
 ```Python
 def binary_search(number_list, target):
+    '''
+    二分法查找
+    list, int -> boolen
+    '''
+    if not (isinstance(number_list, list) or isinstance(target, int)):
+        raise TypeError('please cheak the input')
     if len(number_list) < 0:
         return False
 
@@ -26,4 +32,5 @@ def binary_search(number_list, target):
             left = middle + 1
         else:
             right = middle - 1
+    return False
 ```
