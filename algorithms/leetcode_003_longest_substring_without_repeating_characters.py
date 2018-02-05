@@ -15,6 +15,7 @@ Given "pwwkew", the answer is "wke", with the length of 3. Note that the answer 
 
 def length_of_longest_substring(s):
     """
+    更快速的办法是使用字典记录键值对
     :type s: str
     :rtype: int
     """
@@ -36,7 +37,6 @@ def length_of_longest_substring(s):
             else:
                 continue
     return longest_length
-
 
 
 if __name__ == '__main__':
