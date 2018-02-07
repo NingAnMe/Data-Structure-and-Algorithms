@@ -17,6 +17,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Data_Structure_and_Algorithms_by_Python$plt_io.coverage" NAME="plt_io Coverage Results" MODIFIED="1517897385650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../plt" />
+    <SUITE FILE_PATH="coverage/Data_Structure_and_Algorithms_by_Python$leetcode_005_longest_palindromic_substring.coverage" NAME="leetcode_005_longest_palindromic_substring Coverage Results" MODIFIED="1517987569357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../algorithms/algorithms" />
     <SUITE FILE_PATH="coverage/Data_Structure_and_Algorithms_by_Python$leetcode_003_longest_substring_without_repeating_characters.coverage" NAME="leetcode_003_longest_substring_without_repeating_characters Coverage Results" MODIFIED="1517802224206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithms" />
   </component>
   <component name="FileEditorManager">
@@ -70,8 +71,8 @@
       <file leaf-file-name="leetcode_005_longest_palindromic_substring.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../algorithms/algorithms/leetcode_005_longest_palindromic_substring.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+            <state relative-caret-position="489">
+              <caret line="117" column="0" lean-forward="true" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -204,7 +205,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.plt_io">
+  <component name="RunManager" selected="Python.leetcode_005_longest_palindromic_substring">
     <configuration name="leetcode_003_longest_substring_without_repeating_characters" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -219,6 +220,25 @@
       <module name="Data-Structure-and-Algorithms-by-Python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithms/leetcode_003_longest_substring_without_repeating_characters.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="leetcode_005_longest_palindromic_substring" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../algorithms/algorithms" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Data-Structure-and-Algorithms-by-Python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../algorithms/algorithms/leetcode_005_longest_palindromic_substring.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -243,14 +263,16 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Python.leetcode_003_longest_substring_without_repeating_characters" />
       <item index="1" class="java.lang.String" itemvalue="Python.plt_io" />
+      <item index="2" class="java.lang.String" itemvalue="Python.leetcode_005_longest_palindromic_substring" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.plt_io" />
-        <item index="1" class="java.lang.String" itemvalue="Python.leetcode_003_longest_substring_without_repeating_characters" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.leetcode_005_longest_palindromic_substring" />
+        <item index="1" class="java.lang.String" itemvalue="Python.plt_io" />
+        <item index="2" class="java.lang.String" itemvalue="Python.leetcode_003_longest_substring_without_repeating_characters" />
       </list>
     </recent_temporary>
   </component>
@@ -657,7 +679,7 @@
         <state relative-caret-position="1625">
           <caret line="189" column="12" lean-forward="false" selection-start-line="189" selection-start-column="7" selection-end-line="189" selection-end-column="12" />
           <folding>
-            <element signature="e#99#117#0" expanded="true" />
+            <element signature="e#99#117#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -718,8 +740,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../algorithms/algorithms/leetcode_005_longest_palindromic_substring.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+        <state relative-caret-position="489">
+          <caret line="117" column="0" lean-forward="true" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
           <folding />
         </state>
       </provider>
