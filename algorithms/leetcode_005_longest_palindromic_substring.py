@@ -18,12 +18,14 @@ Input: "cbbd"
 Output: "bb"
 """
 
+
 def longest_palindrome(s):
     """
-
+    寻找一个字符串的最长回文
     :param s:
     :return:
     """
+    pass
 
 
 def is_palindrome(s):
@@ -44,3 +46,16 @@ def is_palindrome(s):
         else:
             return False
     return True
+
+
+if __name__ == '__main__':
+    s = ''
+    print(is_palindrome(s))
+    s = 'a'
+    print(is_palindrome(s))
+    s = 'ab'
+    print(is_palindrome(s))
+    s = 'bb'
+    print(is_palindrome(s))
+    s = 'aba'
+    print(is_palindrome(s))

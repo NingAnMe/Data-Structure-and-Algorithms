@@ -4,9 +4,9 @@
     <list default="true" id="0c86b7f3-95f6-4271-b7fc-eebeb81bb00f" name="Default" comment="">
       <change beforePath="" afterPath="$PROJECT_DIR$/algorithms/leetcode_004.py" />
       <change beforePath="" afterPath="$PROJECT_DIR$/../algorithms/algorithms/leetcode_004.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../algorithms/algorithms/leetcode_005_longest_palindromic_substring.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/../algorithms/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../algorithms/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../algorithms/algorithms/leetcode_005_longest_palindromic_substring.py" afterPath="$PROJECT_DIR$/../algorithms/algorithms/leetcode_005_longest_palindromic_substring.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -70,8 +70,8 @@
       <file leaf-file-name="leetcode_005_longest_palindromic_substring.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../algorithms/algorithms/leetcode_005_longest_palindromic_substring.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="36" column="20" lean-forward="true" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+            <state relative-caret-position="165">
+              <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -119,12 +119,12 @@
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/FY3C+VIRR_METOP-A+IASI_TBBCalCoeff_ALL_Monthly.txt" />
         <option value="$PROJECT_DIR$/../plt/plt_time_series.py" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/MERSI_IASI.yaml" />
-        <option value="$PROJECT_DIR$/../algorithms/algorithms/leetcode_005_longest_palindromic_substring.py" />
         <option value="$PROJECT_DIR$/../plt/plt_monthly_statistics.py" />
         <option value="$PROJECT_DIR$/../plt/MERSI_IASI_test.yaml" />
         <option value="$PROJECT_DIR$/../plt/plt_regression_3d.py" />
         <option value="$PROJECT_DIR$/../plt/plt_time_series_3d.py" />
         <option value="$PROJECT_DIR$/../plt/plt_monthly_statistics_3d.py" />
+        <option value="$PROJECT_DIR$/../algorithms/algorithms/leetcode_005_longest_palindromic_substring.py" />
       </list>
     </option>
   </component>
@@ -718,8 +718,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../algorithms/algorithms/leetcode_005_longest_palindromic_substring.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="36" column="20" lean-forward="true" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+        <state relative-caret-position="165">
+          <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
           <folding />
         </state>
       </provider>
