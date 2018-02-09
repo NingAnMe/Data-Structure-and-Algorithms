@@ -18,9 +18,27 @@ The median is (2 + 3)/2 = 2.5
 """
 
 
-def find_median_sorted_arrays(nums1, nums2):
-    """
-    :type nums1: List[int]
-    :type nums2: List[int]
-    :rtype: float
-    """
+class Solution(object):
+    def findMedianSortedArrays(self, nums1, nums2):
+        """
+        :type nums1: List[int]
+        :type nums2: List[int]
+        :rtype: float
+        """
+        pass
+
+
+if __name__ == '__main__':
+    import time
+    solution = Solution()
+
+    start_time = time.clock()
+
+    a = [2, 3, 4, 6, 7, 9]
+    b = [1, 2, 4, 5, 6]
+    print(solution.findMedianSortedArrays(a, b))  # 4
+
+    end_time = time.clock()
+    all_time = start_time - end_time
+    print(all_time)
+
