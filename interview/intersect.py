@@ -16,15 +16,17 @@ class Solution(object):
         # nums1 永远为长度较短的数组
         if len(nums2) < len(nums1):
             nums1, nums2 = nums2, nums1
+        print nums1, nums2
         result_index = set()
         result = list()
         for i in xrange(len(nums1)):
             value1 = nums1[i]
-            for k in nums2:
+            for k in xrange(len(nums2)):
                 value2 = nums2[k]
                 if value1 == value2:
                     if k not in result_index:
                         result_index.add(k)
+                        break
                     else:
                         continue
         for i in result_index:
@@ -33,8 +35,8 @@ class Solution(object):
 
 
 if __name__ == '__main__':
-    nums1_test = [1, 2, 2, 1]
-    nums2_test = [2, 2]
+    nums1_test = [1, 1]
+    nums2_test = [1]
     s = Solution()
     print s.intersect(nums1_test, nums2_test)
 
