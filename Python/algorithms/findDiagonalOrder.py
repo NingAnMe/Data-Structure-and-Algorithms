@@ -4,8 +4,7 @@
 @Time    : 2018/8/15 17:19
 @Author  : AnNing
 """
-"""
-
+"""对角线遍历
 给定一个含有 M x N 个元素的矩阵（M行，N列），请以对角线遍历的顺序返回这个矩阵中的所有元素，对角线遍历如下图所示。
 
 示例:
@@ -18,7 +17,7 @@
 ]
 输出:  [1,2,4,7,5,3,6,8,9]
 """
-"""
+"""算法
 1.共循环 row.length + col.length - 1 次
 2.循环次数i从0开始计
 3.当循环次数是偶数时，使用row的坐标求col的坐标，从 min(row.max, i) 到 0
@@ -28,6 +27,7 @@
 
 
 class Solution(object):
+    # TODO 根据现在的算法重写程序
     def findDiagonalOrder(self, matrix):
         """
         :type matrix: List[List[int]]

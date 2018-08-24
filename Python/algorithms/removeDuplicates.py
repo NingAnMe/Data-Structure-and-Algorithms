@@ -52,6 +52,7 @@ for (int i = 0; i < len; i++) {
 """
 
 class Solution(object):
+    # TODO 根据现在的算法进行重写
     def removeDuplicates(self, nums):
         """
         一个变量，记录非重复数字的数量，即最后的字符集长度

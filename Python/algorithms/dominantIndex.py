@@ -4,7 +4,7 @@
 @Time    : 2018/8/15 15:55
 @Author  : AnNing
 """
-"""
+"""至少是其他数字两倍的最大数
 在一个给定的数组nums中，总是存在一个最大元素 。
 
 查找数组中的最大元素是否至少是数组中每个其他数字的两倍。
@@ -31,7 +31,10 @@
 nums 的长度范围在[1, 50].
 每个 nums[i] 的整数范围在 [0, 99].
 """
-
+"""算法
+1. 循环整个列表，记录最大值max_number=0和第二大的值second_number=0
+2. 循环完毕后，判断max_number是否是second_number的二倍
+"""
 
 class Solution(object):
     def dominantIndex(self, nums):

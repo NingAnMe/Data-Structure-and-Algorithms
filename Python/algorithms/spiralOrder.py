@@ -28,10 +28,20 @@
 """
 
 """算法
-分为四步，按顺序计算所有数值在矩阵中对应的坐标对（row，col）
+分为四步，按顺序计算所有数值在矩阵中对应的坐标对（row，col），依次加入序对列表
 1. row = row_min + i, col = [col for col in (col_min+i, col_max-i, 1)]
 2. col = col_max - i, row = [row for row in (row_min+i, row_max-i, 1)]
 3. row = row_max - i, col = [col for col in (col_max-i, col_min+i, -1)]
 4. col = col_min + i, row = [row for row in (row_max-i, row_min+i+1, -1)]
-按顺序输出所有(row, col)对应的数值
+按顺序输出序对列表中所有(row, col)对应的数值
 """
+
+
+class Solution(object):
+    # TODO 根据现在的算法完成程序
+    def spiralOrder(self, matrix):
+        """
+        :type matrix: List[List[int]]
+        :rtype: List[int]
+        """
+        pass
