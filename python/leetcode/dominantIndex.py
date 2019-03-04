@@ -66,7 +66,7 @@ if __name__ == '__main__':
     test_data3 = [2, 1]
     test_data4 = [1, 2]
     s = Solution()
-    print s.dominantIndex(test_data1)
-    print s.dominantIndex(test_data2)
-    print s.dominantIndex(test_data3)
-    print s.dominantIndex(test_data4)
+    print(s.dominantIndex(test_data1))
+    print(s.dominantIndex(test_data2))
+    print(s.dominantIndex(test_data3))
+    print(s.dominantIndex(test_data4))

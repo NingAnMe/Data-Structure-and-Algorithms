@@ -59,4 +59,4 @@ if __name__ == '__main__':
     nums4_test = []
     nums5_test = [0, 0, 1]
     s = Solution()
-    print s.moveZeroes(nums2_test)
+    print(s.moveZeroes(nums2_test))

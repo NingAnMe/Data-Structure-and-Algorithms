@@ -48,7 +48,7 @@ class Solution(object):
         localtions = list()
         now = (0, 0)
         localtions.append(now)
-        for i in xrange(len(matrix[0]) + len(matrix)):
+        for i in range(len(matrix[0]) + len(matrix)):
             if i < col_amount:
                 if self.is_even(i):  # i 为偶数
                     # 先向右移动一格
@@ -145,7 +145,7 @@ if __name__ == '__main__':
     test_data3 = [[1, 2, 3, 4]]
     test_data4 = []
     s = Solution()
-    print s.findDiagonalOrder(test_data1)
-    print s.findDiagonalOrder(test_data2)
-    print s.findDiagonalOrder(test_data3)
-    print s.findDiagonalOrder(test_data4)
+    print(s.findDiagonalOrder(test_data1))
+    print(s.findDiagonalOrder(test_data2))
+    print(s.findDiagonalOrder(test_data3))
+    print(s.findDiagonalOrder(test_data4))

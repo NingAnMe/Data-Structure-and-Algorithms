@@ -44,7 +44,7 @@ class Solution(object):
     def list2int(nums):
         length = len(nums)
         value = 0
-        for i in xrange(length):
+        for i in range(length):
             k = i + 1
             value = value + 10 ** i * nums[-k]
         return value
@@ -63,6 +63,6 @@ class Solution(object):
 if __name__ == '__main__':
     nums1_test = [1, 2, 2, 1]
     nums2_test = [2, 2]
-    nums2_test = [0]
+    nums3_test = [0]
     s = Solution()
-    print s.plusOne(nums2_test)
+    print(s.plusOne(nums2_test))

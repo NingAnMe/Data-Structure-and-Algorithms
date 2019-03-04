@@ -69,4 +69,4 @@ class Solution1(object):
 if __name__ == '__main__':
     nums_test = [4, 1, 2, 1, 2]
     s = Solution1()
-    print s.singleNumber(nums_test)
+    print(s.singleNumber(nums_test))

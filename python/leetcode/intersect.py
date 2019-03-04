@@ -58,9 +58,9 @@ class Solution(object):
             nums1, nums2 = nums2, nums1
         result_index = set()
         result = list()
-        for i in xrange(len(nums1)):
+        for i in range(len(nums1)):
             value1 = nums1[i]
-            for k in xrange(len(nums2)):
+            for k in range(len(nums2)):
                 value2 = nums2[k]
                 if value1 == value2:
                     if k not in result_index:
@@ -97,7 +97,7 @@ class Solution(object):
                     count = count1
                 else:
                     count = count2
-                for i in xrange(count):
+                for i in range(count):
                     result.append(value)
         return result
 
@@ -106,5 +106,4 @@ if __name__ == '__main__':
     nums1_test = [1, 2, 2, 1]
     nums2_test = [2, 2]
     s = Solution()
-    print s.intersect(nums1_test, nums2_test)
-
+    print(s.intersect(nums1_test, nums2_test))

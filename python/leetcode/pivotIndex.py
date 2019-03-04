@@ -52,7 +52,7 @@ class Solution(object):
         """
         right_sum = sum(nums)
         left_sum = 0
-        for i in xrange(len(nums)):
+        for i in range(len(nums)):
             if i == 0:
                 right_sum -= nums[i]
             else:
@@ -68,5 +68,5 @@ if __name__ == '__main__':
     data_test2 = [1, 2, 3]
     data_test3 = [-1, -1, -1, 0, 1, 1]
     s = Solution()
-    print s.pivotIndex(data_test1)
-    print s.pivotIndex(data_test2)
+    print(s.pivotIndex(data_test1))
+    print(s.pivotIndex(data_test2))

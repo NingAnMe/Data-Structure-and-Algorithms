@@ -56,7 +56,7 @@ class Solution(object):
         lastValue = prices[0]
         currentValue = prices[0]
 
-        for i in xrange(lenPrice):
+        for i in range(lenPrice):
             currentValue = prices[i]
             if currentValue > lastValue:
                 profits.append(currentValue - lastValue)
@@ -71,6 +71,6 @@ if __name__ == "__main__":
     lyst2 = [1,2,3,4,5]
     lyst3 = [7,6,4,3,1]
     s = Solution()
-    print s.maxProfit(lyst1)
-    print s.maxProfit(lyst2)
-    print s.maxProfit(lyst3)
+    print(s.maxProfit(lyst1))
+    print(s.maxProfit(lyst2))
+    print(s.maxProfit(lyst3))

@@ -75,4 +75,4 @@ if __name__ == '__main__':
     nums = [1]
     k = 1
     solution = Solution()
-    print solution.rotate(nums, k)
+    print(solution.rotate(nums, k))

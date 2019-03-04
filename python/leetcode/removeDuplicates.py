@@ -64,7 +64,7 @@ class Solution(object):
         """
         numsLen = 0
         numsTem = None
-        for i in xrange(len(nums)):
+        for i in range(len(nums)):
             if i == 0:
                 numsTem = nums[i]
                 numsLen += 1
@@ -83,11 +83,11 @@ if __name__ == "__main__":
     lyst3 = [1,1,2]
     lyst4 = [0,0,1,1,1,2,2,3,3,4]
     s = Solution()
-    print "-" * 100
-    print s.removeDuplicates(lyst1)
-    print "-" * 100
-    print s.removeDuplicates(lyst2)
-    print "-" * 100
-    print s.removeDuplicates(lyst3)
-    print "-" * 100
-    print s.removeDuplicates(lyst4)
+    print("-" * 100)
+    print(s.removeDuplicates(lyst1))
+    print("-" * 100)
+    print(s.removeDuplicates(lyst2))
+    print("-" * 100)
+    print(s.removeDuplicates(lyst3))
+    print("-" * 100)
+    print(s.removeDuplicates(lyst4))

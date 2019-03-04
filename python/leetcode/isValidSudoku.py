@@ -58,14 +58,14 @@ class Solution(object):
         :rtype: bool
         """
         # 检查行
-        for i in xrange(9):
+        for i in range(9):
             row_data = board[i]
             if not self.check_right(row_data):
                 return False
         # 检查列
-        for i in xrange(9):
+        for i in range(9):
             col_data = list()
-            for k in xrange(9):
+            for k in range(9):
                 col_data.append(board[k][i])
             if not self.check_right(col_data):
                 return False
@@ -117,5 +117,5 @@ if __name__ == '__main__':
   [".",".",".",".","8",".",".","7","9"]
 ]
     s = Solution()
-    print s.isValidSudoku(test_data1)
-    print s.isValidSudoku(test_data2)
+    print(s.isValidSudoku(test_data1))
+    print(s.isValidSudoku(test_data2))

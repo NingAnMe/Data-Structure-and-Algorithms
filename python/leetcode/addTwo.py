@@ -32,7 +32,7 @@ class Solution(object):
         :rtype: List[int]
         """
         d = dict()
-        for i in xrange(len(nums)):
+        for i in range(len(nums)):
             x = nums[i]
             if x in d:
                 return [d[x], i]
@@ -45,4 +45,4 @@ if __name__ == '__main__':
     nums1_test = [1, 2, 2, 1]
     nums2_test = [2, 2]
     s = Solution()
-    print s.twoSum(nums2_test, 3)
+    print(s.twoSum(nums2_test, 3))
