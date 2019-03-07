@@ -57,7 +57,19 @@ class Selection(Sort):
 class Insertion(Sort):
     @classmethod
     def sort(cls, a: list):
-        pass
+        length = len(a)
+        for i in range(1, length):
+            print('i', i, a)
+            j_min = i - 1
+            for j in range(i, 0, -1):
+                print('j', j, a[j], a[j_min])
+                if cls.less(a[j], a[j_min]):
+
+                    cls.exch(a, j, j_min)
+                    j_min = j - 2
+                else:
+                    break
+                print('j', j, a)
 
 
 class Bubble(Sort):
@@ -69,6 +81,6 @@ class Bubble(Sort):
 if __name__ == '__main__':
     values = [1, 4, 2, 7, 5, 3, 5, 6]
     values1 = []
-    S = Selection
+    S = Insertion
     S.main(values)
     S.main(values1)
