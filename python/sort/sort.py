@@ -3,6 +3,10 @@
 
 
 class Sort:
+    """
+    排序模板
+    """
+
     @classmethod
     def sort(cls, a: list):
         pass
@@ -27,3 +31,44 @@ class Sort:
                 return False
         return True
 
+    @classmethod
+    def main(cls, a: list):
+        cls.sort(a)
+        assert cls.is_sorted(a)
+        cls.show(a)
+
+
+class Selection(Sort):
+    """
+    选择排序
+    """
+
+    @classmethod
+    def sort(cls, a: list):
+        length = len(a)
+        for i in range(0, length-1):
+            i_min = i
+            for j in range(i+1, length):
+                if cls.less(a[j], a[i_min]):
+                    i_min = j
+            cls.exch(a, i, i_min)
+
+
+class Insertion(Sort):
+    @classmethod
+    def sort(cls, a: list):
+        pass
+
+
+class Bubble(Sort):
+    @classmethod
+    def sort(cls, a: list):
+        pass
+
+
+if __name__ == '__main__':
+    values = [1, 4, 2, 7, 5, 3, 5, 6]
+    values1 = []
+    S = Selection
+    S.main(values)
+    S.main(values1)
